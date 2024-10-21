@@ -1,6 +1,6 @@
 import axios from "axios";
 // import { useHistory } from "react-router-dom";
-const URL = "https://mern-test-moip.onrender.com";
+const URL = "https:localhost:3000";
 
 export const getUsers = async () => {
   try {
@@ -63,7 +63,7 @@ export const deleteUser = async (id) => {
 
 // export const deleteUser = async (id) => {
 //   try {
-//     return await axios.delete(`http://localhost:8000/${id}`);
+//     return await axios.delete(`http://45.249.79.45/${id}`);
 //   } catch (error) {
 //     console.log("error in axios api", error);
 //     throw error;
